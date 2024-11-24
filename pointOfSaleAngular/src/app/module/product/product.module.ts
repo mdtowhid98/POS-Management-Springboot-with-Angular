@@ -20,7 +20,7 @@ export class ProductModule {
   unitprice!: number;
   quantity!: number;
   manufactureDate!:Date;
-  expiryDate!:Date;
+  expiryDate!:string;
   // discount!:number;
   categories!: CategoryModule[];
   supplier!: SupplierModule;

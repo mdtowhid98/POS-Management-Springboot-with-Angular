@@ -123,31 +123,27 @@ export class CreatesalesComponent implements OnInit, OnDestroy {
       filteredProducts: [[]],
       quantity: [{ value: 0, disabled: true }, Validators.required],
       unitprice: [{ value: 0, disabled: true }],
-      discount: [0, Validators.required],  // Add the discount field here
-      stock: [{ value: 0, disabled: true }]
+      discount: [0, Validators.required],
+      stock: [{ value: 0, disabled: true }],
+      expiryDate: [''] // Add the expiry date field here
     });
-
+  
     productGroup.get('name')?.valueChanges.subscribe(name => {
       const selectedProduct = this.products.find(prod => prod.name === name);
       if (selectedProduct) {
         productGroup.patchValue({
-          id: selectedProduct.id, 
+          id: selectedProduct.id,
           unitprice: selectedProduct.unitprice,
-          stock: selectedProduct.stock
+          stock: selectedProduct.stock,
+          expiryDate: selectedProduct.expiryDate // Populate expiry date from product
         });
         productGroup.get('quantity')?.enable();
-
-        productGroup.get('quantity')?.valueChanges.subscribe(quantity => {
-          const validQuantity = quantity ?? 0;
-          if (validQuantity > selectedProduct.stock) {
-            alert(`The quantity exceeds stock (${selectedProduct.stock}) for ${selectedProduct.name}.`);
-            productGroup.patchValue({ quantity: selectedProduct.stock });
-          }
-        });
       }
     });
+  
     this.productsArray.push(productGroup);
   }
+  
 
   getFilteredProducts(index: number): ProductModule[] {
     const filteredProducts = this.productsArray.at(index).get('filteredProducts')?.value;
@@ -175,13 +171,31 @@ export class CreatesalesComponent implements OnInit, OnDestroy {
   createSales() {
     this.calculateTotalPrice();
     this.salesForm.get('totalprice')?.enable();
+  
+    const currentDate = new Date(); // Get the current date
+  
+    // Check for expired products
+    const expiredProducts = this.salesForm.value.products.filter((product: any) => {
+      const expiryDate = product.expiryDate ? new Date(product.expiryDate) : null; // Safely parse expiry date
+      return expiryDate && expiryDate < currentDate; // Validate if expiry date is in the past
+    });
+  
+    if (expiredProducts.length > 0) {
+      alert(
+        `Cannot create sales. The following products have expired:\n` +
+        expiredProducts.map((prod: any) => `- ${prod.name} (Expiry Date: ${prod.expiryDate})`).join('\n')
+      );
+      this.salesForm.get('totalprice')?.disable();
+      return; // Stop sales creation
+    }
+  
+    // Proceed with sales creation if no expired products
     this.sale.customername = this.salesForm.value.customername;
     this.sale.salesdate = this.salesForm.value.salesdate;
     this.sale.discount = this.salesForm.value.discount;
     this.sale.totalprice = this.salesForm.value.totalprice;
-    this.salesForm.get('totalprice')?.disable();
-
-    this.sale.product = this.salesForm.value.products.map((product: ProductModule) => {
+  
+    this.sale.product = this.salesForm.value.products.map((product: any) => {
       const originalProduct = this.products.find(p => p.id === product.id);
       if (originalProduct) {
         originalProduct.stock -= product.quantity;
@@ -189,7 +203,7 @@ export class CreatesalesComponent implements OnInit, OnDestroy {
       }
       return null;
     }).filter((product: ProductModule | null) => product !== null);
-
+  
     this.salesService.createSales(this.sale).subscribe({
       next: res => {
         this.sale.product.forEach((prod: ProductModule) => {
@@ -203,4 +217,6 @@ export class CreatesalesComponent implements OnInit, OnDestroy {
       error: error => { console.log(error); }
     });
   }
+  
+  
 }
