@@ -1,42 +1,22 @@
 <div class="container">
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Id</th>
-          <th>Customer Name</th>
-          <th>Sales Date</th>
-          <th>Product Details</th>
-          <th>Total Price</th>
-          <th>Update</th>
-          <th>Delete</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let sale of sales">
-          <td>{{ sale.id }}</td>
-          <td>{{ sale.customername }}</td>
-          <td>{{ sale.salesdate }}</td>
-          <td>
-            <ul>
-              <li *ngFor="let product of sale.product">
-                Name: {{ product.name }} - 
-                <!-- Quantity: {{product.quantity}}  -->
-                - Unit Price: {{ product.unitprice }}
-              </li>
-            </ul>
-          </td>
-          <td>{{ sale.totalprice }}</td>
-          <td>
-            <button class="btn btn-warning" (click)="editSales(sale)">
-              <fa-icon [icon]="faEdit"></fa-icon> 
-            </button>
-          </td>
-          <td>
-            <button class="btn btn-danger" (click)="deleteSales(sale.id)">
-              <fa-icon [icon]="faTrash"></fa-icon> 
-            </button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <h3 class="mt-5">Sales Bar Chart</h3>
+  <div style="height: 400px; width: 100%;">
+    <canvas #salesChart></canvas>
+  </div>
+
+  <h3 class="mt-5">Sales Data</h3>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Sales Date</th>
+        <th>Total Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let group of groupedSales">
+        <td>{{ group.salesdate | date: 'MM/dd/yyyy' }}</td>
+        <td>{{ group.totalprice | currency }}</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
