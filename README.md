@@ -45,7 +45,7 @@ Category Wise Search Products
 Sales Products.
 ![ Sales page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/17%2CDhanmondi%20branch%20sales.png)
 
-Selectes Cartegory Wise Show Products only dhanmondi branch.
+Selected Cartegory Wise Show Products only dhanmondi branch.
 ![ Sales page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/18%2CCategory%20wise%20product%20selected.png)
 
 Multiple Sales Products and stock updated.
