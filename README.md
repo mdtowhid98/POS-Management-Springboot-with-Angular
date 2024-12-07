@@ -52,11 +52,11 @@ Multiple Sales Products and stock updated.
 ![ Sales page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/19%2CMultiple%20sales%20products.png)
 
 When Create Sales generate invoice his branch.
-![ Invoice page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/dhanmondi%20branch%20sales%20invoice%20.pdf)
+![ Invoice page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/29%2CDhanmondi%20branch%20invoice.png)
 
 :pushpin: Stock:
 Dhanmondi Branch Stock All Products.
-![ Stock page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/10%2CCreate%20product.png)
+![ Stock page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/26%2CDhanmondi%20branch%20stock.png)
 
 :pushpin: Login:
 ### Login Banani Branch.
@@ -72,7 +72,11 @@ Sales Products.
 ![ Sales page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/23%2CBanani%20branch%20create%20sales.png)
 
 When Create Sales generate invoice his branch.
-![ Invoice page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/banani%20branch%20sales%20invoice.pdf)
+![ Invoice page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/30%2CBanani%20branch%20invoice.png)
+
+:pushpin: Stock:
+Banani Branch Stock All Products.
+![ Stock page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/27%2CBanani%20branch%20stock.png)
 
 :pushpin: Sales Details:
 ### Reports.
@@ -80,6 +84,10 @@ When Create Sales generate invoice his branch.
 
 Customer Name and Id wise search sales details.
 ![ Sales page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/25%2CSearch%20customer%20name%20%20and%20id.png)
+
+:pushpin: Sales Chart:
+Date wise sales chart one date how many price sales.
+![ Sales chart page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/28%2CView%20Sales%20Chart.png)
 
 
 
