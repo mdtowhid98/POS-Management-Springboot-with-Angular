@@ -1,6 +1,6 @@
 ## Point of Sale Management System
 
-:pushpin: Login:
+### :pushpin: Login:
 ### Login Dhanmondi Branch.
 ![ Login page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/2%2CLogin.png)
 
@@ -28,7 +28,7 @@ View Supplier
 View Branch
 ![ Branch page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/9%2CView%20branch.png)
 
-:pushpin: Products:
+### :pushpin: Products:
 Create Product.
 ![ Product page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/10%2CCreate%20product.png)
 
@@ -64,7 +64,7 @@ Dhanmondi Branch Stock All Products.
 ![ Login page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/2%2CLogin.png)
 
 
-:pushpin: Dashboard:
+### :pushpin: Dashboard:
 ### In This Dashboard The Banai Branch Has limited access to his branch.
 ![ Dashboard page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/22%2CBanani%20branch%20home%20page.png)
 
