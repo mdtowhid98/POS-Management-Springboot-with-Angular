@@ -51,6 +51,7 @@ Selected Cartegory Wise Show Products only dhanmondi branch.
 Multiple Sales Products and stock updated.
 ![ Sales page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/19%2CMultiple%20sales%20products.png)
 
+:pushpin:Invoice page:
 When Create Sales generate invoice his branch.
 ![ Invoice page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/29%2CDhanmondi%20branch%20invoice.png)
 
@@ -71,6 +72,7 @@ Dhanmondi Branch Stock All Products.
 Sales Products.
 ![ Sales page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/23%2CBanani%20branch%20create%20sales.png)
 
+:pushpin:Invoice page:
 When Create Sales generate invoice his branch.
 ![ Invoice page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/30%2CBanani%20branch%20invoice.png)
 
