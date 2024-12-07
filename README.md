@@ -54,6 +54,10 @@ Multiple Sales Products and stock updated.
 When Create Sales generate invoice his branch.
 ![ Invoice page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/dhanmondi%20branch%20sales%20invoice%20.pdf)
 
+:pushpin: Stock:
+Dhanmondi Branch Stock All Products.
+![ Stock page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/10%2CCreate%20product.png)
+
 :pushpin: Login:
 ### Login Banani Branch.
 ![ Login page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/2%2CLogin.png)
