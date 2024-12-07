@@ -53,6 +53,7 @@ Multiple Sales Products and stock updated.
 
 ### :pushpin:Invoice page:
 When Create Sales generate invoice his branch.
+
 ![ Invoice page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/29%2CDhanmondi%20branch%20invoice.png)
 
 ### :pushpin: Stock:
@@ -74,6 +75,7 @@ Sales Products.
 
 ### :pushpin:Invoice page:
 When Create Sales generate invoice his branch.
+
 ![ Invoice page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/30%2CBanani%20branch%20invoice.png)
 
 ### :pushpin: Stock:
