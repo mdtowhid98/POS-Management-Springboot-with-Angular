@@ -60,6 +60,17 @@ When Create Sales generate invoice his branch.
 Dhanmondi Branch Stock All Products.
 ![ Stock page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/26%2CDhanmondi%20branch%20stock.png)
 
+### :pushpin: Sales Details:
+### Reports.
+![ Report page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/24%2CSales%20details.png)
+
+Customer Name and Id wise search sales details.
+![ Sales page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/25%2CSearch%20customer%20name%20%20and%20id.png)
+
+### :pushpin: Sales Chart:
+Date wise sales chart one date how many price sales.
+![ Sales chart page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/28%2CView%20Sales%20Chart.png)
+
 ### :pushpin: Login:
 ### Login Banani Branch.
 ![ Login page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/2%2CLogin.png)
@@ -82,16 +93,7 @@ When Create Sales generate invoice his branch.
 Banani Branch Stock All Products.
 ![ Stock page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/27%2CBanani%20branch%20stock.png)
 
-### :pushpin: Sales Details:
-### Reports.
-![ Report page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/24%2CSales%20details.png)
 
-Customer Name and Id wise search sales details.
-![ Sales page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/25%2CSearch%20customer%20name%20%20and%20id.png)
-
-### :pushpin: Sales Chart:
-Date wise sales chart one date how many price sales.
-![ Sales chart page](https://github.com/mdtowhid98/POS-Management-Springboot-with-Angular/blob/main/Screen%20shot/28%2CView%20Sales%20Chart.png)
 
 
 
