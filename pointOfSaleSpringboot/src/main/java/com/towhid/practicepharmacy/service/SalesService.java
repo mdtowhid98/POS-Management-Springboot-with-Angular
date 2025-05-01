@@ -3,7 +3,6 @@ package com.towhid.practicepharmacy.service;
 import com.towhid.practicepharmacy.entity.Product;
 import com.towhid.practicepharmacy.entity.Sales;
 import com.towhid.practicepharmacy.entity.SalesDetails;
-import com.towhid.practicepharmacy.repository.CategoryRepository;
 import com.towhid.practicepharmacy.repository.ProductRepository;
 import com.towhid.practicepharmacy.repository.SalesDetailsRepository;
 import com.towhid.practicepharmacy.repository.SalesRepository;
